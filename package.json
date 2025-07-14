@@ -1,0 +1,15 @@
+{
+  "name": "id-extractor-web",
+  "version": "1.0.0",
+  "description": "Tool lấy ID từ link Facebook và TikTok",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
